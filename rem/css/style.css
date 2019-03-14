@@ -1,0 +1,50 @@
+html{font-size: 100px;}
+
+body{font-size: 0.14rem;color: #666;max-width: 1200px;margin: 0 auto;min-width: 375px;}
+a{color: #34b19f;}
+
+.header{height: 0.5rem;}
+.logo{float:left; width: 1.2rem;margin-top: 0.05rem;margin-left: 0.05rem;}
+.logo img{float: left;width: 0.36rem;}
+.logo p{float: left;color: #34b19f;}
+.nav{float: right; width: 0.36rem;height: 0.38rem;background: #34b19f; color: #fff;  font-size:0.24rem;text-align: center;line-height:0.38rem; margin-top: 0.05rem;margin-right: 0.05rem;}
+
+.banner{ position: relative;}
+.banner img{display: block;}
+.banner_out{width: 2.8rem;height: 1.04rem;background: rgba(255, 255, 255, 0.5);position: absolute;left:50%;top:50%;margin-left:-1.4rem;margin-top:-0.52rem;}
+.banner_in{border: 0.02rem solid #fff;width: 2.6rem;height: 0.84rem;position: absolute;left:0;right:0;top:0;bottom:0;margin:auto;color:#fd5ea1;padding: 0.1rem;color:#fd5ea1;}
+.banner_in h3{height: 0.22rem;line-height: 0.22rem;}
+
+.search{padding: 0.2rem 0.1rem}
+.search_in{height:0.36rem;}
+.search_in .txt{width: 80%;height: 0.36rem;border: 0.02rem solid #34b19f;padding-left:0.05rem;float:left;font-size: 0.12rem;}
+.search_in .sub{width: 20%;height: 0.36rem;background: #34b19f;color: #fff;float:left;font-size: 0.14rem;}
+.search .hot{font-weight: blod;text-align: center;margin-top: 0.08rem;}
+
+/* con */
+.con{padding:0.2rem 0.12rem;}
+ .con h3,.con p{color: #34b19f;text-align: center;}
+.con h3{font-size: 0.16rem; height: 0.36rem; line-height: 0.36rem;}
+.con p{height: 0.26rem; line-height: 0.26rem;}
+.con ul{overflow: hidden;}
+.con li{width: 30%;background: red;float:left ;border: 0.05rem solid #fff;}
+.con li img{display: block;}
+.con li:nth-child(2){margin: 0 5%;}
+
+
+/* news */
+.news{padding: 0.1rem;}
+.news_title{border-bottom: 0.01rem dashed #34b19f;color: #34b19f;}
+.news_title h3{font-size: 0.16rem;height: 0.3rem;}
+.news_title p{height: 0.22rem;font-weight: bold;}
+.news dl{position: relative;padding-left: 1.3rem;margin-top: 0.1rem;}
+.news dt{width: 1.2rem;position: absolute;left: 0;top: 0;}
+.news dd{line-height: 0.24rem;margin: 0 auto;}
+.news .nimg{height: 0.7rem;}
+.news dd a{display: block;}
+
+.about{padding: 0.1rem;background: url(../img/bg.jpg);background-size: cover;}
+.about_in{padding: 0.1rem;background: rgba(255, 255, 255, 0.5);margin-top: 0.1rem;box-shadow: 0 0 3px rgba(0, 0, 0, 0.3)}
+.about_in p{line-height: 0.22rem;text-indent: 2em;font-size: 0.14rem;}
+.about_in a{display: block;width: 1.3rem;height: 0.3rem;background: #34b19f;color: #fff;margin-top: 0.1rem;text-align: center;line-height: 0.3rem;}
+
